@@ -5,6 +5,7 @@ import bgImagePlugin from "grapesjs-style-bg";
 import navbarPlugin from "./plugin/header";
 import footerPlugin from "./plugin/footer";
 import heroSectionPlugin from "./plugin/heroSection";
+import aboutSectionPlugin from "./plugin/aboutSection";
 
 import "./App.css";
 
@@ -90,6 +91,7 @@ function App() {
         bgImagePlugin,
         footerPlugin,
         heroSectionPlugin,
+        aboutSectionPlugin
       ]}
       onEditor={onEditor}
     />
